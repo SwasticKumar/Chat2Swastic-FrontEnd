@@ -5,7 +5,7 @@ import { getToken } from "../helper/sessionHelper";
 import { setAllMessages, setNewMessage, setSingleMessage } from "../redux/state/chatSlice";
 import { socket } from "../components/ChatBox";
 
-const BaseURL = "http://localhost:8080/api";
+const BaseURL = "https://chat-app-egap.onrender.com/api";
 const AxiosHeader = { headers: { "token": getToken() } };
 
 export const sentMessageRequest = async (content, chatId) => {

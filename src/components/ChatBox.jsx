@@ -19,7 +19,7 @@ import { myChatRequest } from "../apiRequest/chatRequset";
 import GroupIcon from "@mui/icons-material/Group";
 
 // const ENDPOINT = "https://chat-app-mern-qfhu.onrender.com/"
-const ENDPOINT = "http://localhost:8080/";
+const ENDPOINT = "https://chat-app-egap.onrender.com/";
 export var socket, selectedChatCompare;
 
 const ChatBox = ({ dispatch }) => {

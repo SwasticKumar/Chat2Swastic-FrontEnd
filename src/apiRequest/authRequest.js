@@ -14,7 +14,7 @@ import { setsearchUsers } from "../redux/state/chatSlice";
 import { socket } from "../components/ChatBox";
 
 // const BaseURL = "https://chat-app-mern-qfhu.onrender.com/api";
-const BaseURL = "http://localhost:8080/api";
+const BaseURL = "https://chat-app-egap.onrender.com/api";
 const AxiosHeader = { headers: { token: getToken() } };
 
 export const RegistrationRequest = (firstname, lastname, email, password) => {
